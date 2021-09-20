@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.titolo{
+    padding-bottom: 30px;
+}
+
 .container {
     background-color: rgb(233, 233, 233);
     height: 100vh;
