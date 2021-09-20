@@ -28,13 +28,14 @@
 .buttonUp {
     padding: 10px;
     margin-left: 20px;
-    background-color: rgb(0, 182, 82);
+    background-color: hsl(147, 100%, 44%);
     border-radius: 10px;
+    border: none;
 }
 
 .insert {
     border-radius: 10px;
-    border: 1px solid green
+    border: none;
 }
 
 .container-todo {
@@ -44,5 +45,5 @@
     margin-left: 10%;
     margin-right: 10%;
     padding: 20px ;
-    border: 1px solid green
+    border: none;
 }
