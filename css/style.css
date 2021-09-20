@@ -38,7 +38,7 @@
     border: none;
 }
 
-.container-todo {
+/* .container-todo {
     background-color: white;
     border-radius: 10px;
     margin-top: 50px;
@@ -46,17 +46,22 @@
     margin-right: 10%;
     padding: 20px ;
     border: none;
-}
+} */
 
 .list-todos li{
     display: flex;
     border-bottom: 1px solid lightgrey;
     padding: 20px;
     color: grey;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px ;
+    border: none;
 }
-
 
 .list-todos li i{
     margin-left: auto;
-    
 }
