@@ -42,13 +42,16 @@
             <!-- main -->
                 <main>
                     <div class="container-todos">
-                        <ul class="list-todos list-inline">
+                        <ul v-if="todos.length > 0" class="list-todos list-inline">
                             <li v-for="(todo, keys) in todos" :key="index">{{todo}}<i class="fas fa-times" @click="removeTodo(index)"></i></li>
                             <!-- <li>bla bla bla</li>
                             <li>bla bla bla</li>
                             <li>bla bla bla</li> -->
                         </ul>
                     </div>
+                    
+                    <h2 v-else>non ci ono todo</h2>
+
                 </main>
             <!-- main -->
             </div>
