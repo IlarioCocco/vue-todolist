@@ -49,18 +49,18 @@
     border: none;
 } */
 
-.list-todos li{
+.list-todos li {
     display: flex;
-    border-bottom: 1px solid lightgrey;
-    padding: 20px;
     color: grey;
     background-color: white;
     border-radius: 10px;
+    border: none;
     margin-top: 5px;
     margin-left: 10%;
     margin-right: 10%;
     padding: 20px ;
-    border: none;
+    border-bottom: 1px solid lightgrey;
+   
 }
 
 .list-todos li i{
