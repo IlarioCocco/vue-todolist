@@ -43,7 +43,7 @@
                 <main>
                     <div class="container-todos">
                         <ul class="list-todos list-inline">
-                            <li v-for="(todo, keys) in todos" :key="index"></li>
+                            <li v-for="(todo, keys) in todos" :key="index">{{todo}}<i class="fas fa-times" @click="removeTodo"></i></li>
                             <!-- <li>bla bla bla</li>
                             <li>bla bla bla</li>
                             <li>bla bla bla</li> -->

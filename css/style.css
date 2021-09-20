@@ -9,7 +9,7 @@
 }
 
 .container {
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(241, 241, 241);
     height: 100vh;
 }
 
@@ -48,3 +48,15 @@
     border: none;
 }
 
+.list-todos li{
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+    padding: 20px;
+    color: grey;
+}
+
+
+.list-todos li i{
+    margin-left: auto;
+    
+}
