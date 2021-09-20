@@ -40,6 +40,9 @@
 .container-todo {
     background-color: white;
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 20px ;
+    border: 1px solid green
 }
