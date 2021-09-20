@@ -7,8 +7,7 @@ const app = new Vue({
             todos: [
                 "first step",
                 "second step",
-                "third step",
-                "four step"
+                "third step"
             ],
             newTodo: ''
         },

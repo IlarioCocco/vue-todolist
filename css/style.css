@@ -5,7 +5,7 @@
 }
 
 .titolo{
-    padding-bottom: 30px;
+    padding-top: 30px; 
     color: grey;
 }
 
@@ -55,10 +55,10 @@
     background-color: white;
     border-radius: 10px;
     border: none;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-left: 10%;
     margin-right: 10%;
-    padding: 20px ;
+    padding: 20px;
     border-bottom: 1px solid lightgrey;
    
 }
