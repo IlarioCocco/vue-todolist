@@ -62,6 +62,8 @@
     border-bottom: 1px solid lightgrey;
 }
 
-.list-todos li i{
+.list-todos li i {
     margin-left: auto;
+    cursor: pointer;
+    color: hsl(147, 100%, 38%);
 }
