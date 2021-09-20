@@ -1,0 +1,15 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.logoBoolean {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 30%;
+}
