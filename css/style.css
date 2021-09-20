@@ -36,3 +36,10 @@
     border-radius: 10px;
     border: 1px solid green
 }
+
+.container-todo {
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 20px ;
+}
