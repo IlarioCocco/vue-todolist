@@ -33,7 +33,7 @@
                         <img class="logo" src="logo.png" alt="logo boolean">
                     </div>
                     <div class="search">
-                        <input v-model="newTodo" class="insert" type="text" placeholder="New Todo">
+                        <input v-model="newTodo" class="insert" type="text" placeholder="   New Todo">
                         <button @click="aggiungiTodo()" class="buttonUp btn btn-success">Aggiungi</button>
                     </div>
                 </header>
@@ -43,7 +43,7 @@
                 <main>
                     <div class="container-todos">
                         <ul class="list-todos list-inline">
-                            <li v-for="(todo, keys) in todos" :key="index">{{todo}}<i class="fas fa-times" @click="removeTodo"></i></li>
+                            <li v-for="(todo, keys) in todos" :key="index">{{todo}}<i class="fas fa-times" @click="removeTodo(index)"></i></li>
                             <!-- <li>bla bla bla</li>
                             <li>bla bla bla</li>
                             <li>bla bla bla</li> -->
